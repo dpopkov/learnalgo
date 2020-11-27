@@ -32,3 +32,6 @@ hs_err_pid*
 # Temporary files
 *.swp
 
+# Tempoary (draft) code files
+/**/Tmp*.java
+
