@@ -4,9 +4,11 @@ Leetcode
 Problems
 --------
 
-|    #   | Title   |   Solution    | Test | Difficulty  |
-|--------|---------|---------------|------|-------------|
-|[0001](https://leetcode.com/problems/two-sum/)    | Two Sum   | [solution](src/main/java/learn/algo/leetcode/problemset/p0001twosum/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0001twosum/SolutionTwoSumTest.java)    | easy    |
+|    #   | Title   |   Solution    | Test | Difficulty  | Runtime | Memory Usage |
+|--------|---------|---------------|------|-------------|---------|--------------|
+|[0001](https://leetcode.com/problems/two-sum/)    | Two Sum   | [solution](src/main/java/learn/algo/leetcode/problemset/p0001twosum/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0001twosum/SolutionTwoSumTest.java)    | easy    | 0 ms, faster than 100.00% | 38.9 MB, less than 79.58% |
+|[0002](https://leetcode.com/problems/add-two-numbers) | Add Two Numbers | [solution](src/main/java/learn/algo/leetcode/problemset/p0002addtwonumbers/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0002addtwonumbers/SolutionTest.java) | medium | 2 ms, faster than 78.06% | 39.5 MB, less than 31.94% |
+
 
 30-days Leetcoding Challenge
 ----------------------------
