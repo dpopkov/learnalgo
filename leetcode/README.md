@@ -9,6 +9,7 @@ Problems
 |[0001](https://leetcode.com/problems/two-sum/)    | Two Sum   | [solution](src/main/java/learn/algo/leetcode/problemset/p0001twosum/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0001twosum/SolutionTwoSumTest.java)    | easy    | 0 ms, faster than 100.00% | 38.9 MB, less than 79.58% |
 |[0002](https://leetcode.com/problems/add-two-numbers) | Add Two Numbers | [solution](src/main/java/learn/algo/leetcode/problemset/p0002addtwonumbers/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0002addtwonumbers/SolutionTest.java) | medium | 2 ms, faster than 78.06% | 39.5 MB, less than 31.94% |
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Longest Substring Without Repeating Characters | [solution](src/main/java/learn/algo/leetcode/problemset/p0003longsubstring/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0003longsubstring/SolutionTest.java) | medium | 6 ms, faster than 65.38% | 39.2 MB, less than 51.98% |
+|[0007](https://leetcode.com/problems/reverse-integer/) | Reverse Integer | [solution](src/main/java/learn/algo/leetcode/problemset/p0007reverseint/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0007reverseint/SolutionTest.java) | easy | 1 ms, faster than 100.00% | 36.1 MB, less than 48.10% |
 
 
 30-days Leetcoding Challenge
