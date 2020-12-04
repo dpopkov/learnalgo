@@ -10,6 +10,7 @@ Problems
 |[0002](https://leetcode.com/problems/add-two-numbers) | Add Two Numbers | [solution](src/main/java/learn/algo/leetcode/problemset/p0002addtwonumbers/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0002addtwonumbers/SolutionTest.java) | medium | 2 ms, faster than 78.06% | 39.5 MB, less than 31.94% |
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Longest Substring Without Repeating Characters | [solution](src/main/java/learn/algo/leetcode/problemset/p0003longsubstring/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0003longsubstring/SolutionTest.java) | medium | 6 ms, faster than 65.38% | 39.2 MB, less than 51.98% |
 |[0007](https://leetcode.com/problems/reverse-integer/) | Reverse Integer | [solution](src/main/java/learn/algo/leetcode/problemset/p0007reverseint/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0007reverseint/SolutionTest.java) | easy | 1 ms, faster than 100.00% | 36.1 MB, less than 48.10% |
+|[0009](https://leetcode.com/problems/palindrome-number/) | Palindrome Number | [solution](src/main/java/learn/algo/leetcode/problemset/p0009palindrome/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0009palindrome/SolutionTest.java) | easy | 7 ms, faster than 63.34% | 38.2 MB, less than 86.19% |
 
 
 30-days Leetcoding Challenge
