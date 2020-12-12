@@ -1,5 +1,11 @@
 package learn.algo.leetcode.problemset.p0005longpalndrm;
 
+/*
+Result:
+Runtime: 194 ms, faster than 32.44%
+Memory Usage: 39.6 MB, less than 40.35%
+Solution is accepted, but result is still poor.
+ */
 class Solution {
     /**
      * Returns the longest palindromic substring in s.
@@ -10,24 +16,26 @@ class Solution {
             return s;
         }
         String result = "";
+        char[] chars = s.toCharArray();
         for (int start = 0; start < len - 1; start++) {
             for (int end = start; end < len; end++) {
-                String sub = s.substring(start, end + 1);
-                if (isPalindrome(sub)
-                        && sub.length() > result.length()) {
-                    result = sub;
+                int subLength = end - start + 1;
+                if (subLength > result.length()
+                        && isPalindrome(chars, start, end + 1)) {
+                    result = new String(chars, start, subLength);
                 }
             }
         }
         return result;
     }
 
-    private boolean isPalindrome(String s) {
-        if (s.length() == 1) {
+    boolean isPalindrome(char[] chars, int from, int to) {
+        int len = to - from;
+        if (len == 1) {
             return true;
         }
-        for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
-            if (s.charAt(i) != s.charAt(j)) {
+        for (int i = from, j = to - 1; i < j; i++, j--) {
+            if (chars[i] != chars[j]) {
                 return false;
             }
         }

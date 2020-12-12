@@ -14,9 +14,23 @@ class SolutionTest {
             "a, ac",
             "bb, abb",
             "aba, aba",
-            "bab, babad"
+            "bab, babad",
+            "bb, cbbd"
     })
     void testLongestPalindrome(String expected, String input) {
         assertEquals(expected, new Solution().longestPalindrome(input));
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "true, a",
+            "true, bb",
+            "false, ab",
+            "true, aba",
+            "true, baab",
+            "false, bad"
+    })
+    void testIsPalindrome(boolean expected, String s) {
+        assertEquals(expected, new Solution().isPalindrome(s.toCharArray(), 0, s.length()));
     }
 }
