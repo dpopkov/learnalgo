@@ -13,7 +13,7 @@ Problems
 |[0007](https://leetcode.com/problems/reverse-integer/) | Reverse Integer | [solution](src/main/java/learn/algo/leetcode/problemset/p0007reverseint/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0007reverseint/SolutionTest.java) | easy | 1 ms, faster than 100.00% | 36.1 MB, less than 48.10% |
 |[0009](https://leetcode.com/problems/palindrome-number/) | Palindrome Number | [solution](src/main/java/learn/algo/leetcode/problemset/p0009palindrome/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0009palindrome/SolutionTest.java) | easy | 7 ms, faster than 63.34% | 38.2 MB, less than 86.19% |
 |[0012](https://leetcode.com/problems/integer-to-roman/) | Integer to Roman | [solution](src/main/java/learn/algo/leetcode/problemset/p0012inttoroman/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0012inttoroman/SolutionTest.java) | easy | 4 ms, faster than 81.36% | 39.1 MB, less than 37.21% |
-|[0771](https://leetcode.com/problems/jewels-and-stones/) | Jewels and Stones | [solution](src/main/java/learn/algo/leetcode/problemset/p0771jewelsstones/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0771jewelsstones/SolutionTest.java) | easy | 1 ms, faster than 70.47% | 37.8 MB, less than 13.39% |
+|[0771](https://leetcode.com/problems/jewels-and-stones/) | Jewels and Stones | [solution](src/main/java/learn/algo/leetcode/problemset/p0771jewelsstones/Solution.java) | [test](src/test/java/learn/algo/leetcode/problemset/p0771jewelsstones/SolutionTest.java) | easy | 1 ms, faster than 70.47% | 37.5 MB, less than 34.74% |
 
 
 30-days Leetcoding Challenge

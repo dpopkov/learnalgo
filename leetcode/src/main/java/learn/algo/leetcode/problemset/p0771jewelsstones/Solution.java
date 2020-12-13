@@ -1,7 +1,5 @@
 package learn.algo.leetcode.problemset.p0771jewelsstones;
 
-import java.util.*;
-
 /*
 You're given strings J representing the types of stones that are jewels,
 and S representing the stones you have.  Each character in S is a type of stone you have.
@@ -11,13 +9,12 @@ The letters in J are guaranteed distinct, and all characters in J and S are lett
 Letters are case sensitive, so "a" is considered a different type of stone from "A".
 
 Runtime: 1 ms, faster than 70.47%
-Memory Usage: 37.8 MB, less than 13.39%
+Memory Usage: 37.5 MB, less than 34.74%
  */
 public class Solution {
     public int numJewelsInStones(String J, String S) {
-        char[] jewelChars = J.toCharArray();
-        Set<Character> jewels = new HashSet<>();
-        for (char ch : jewelChars) {
+        CharSet jewels = new CharSet();
+        for (char ch : J.toCharArray()) {
             jewels.add(ch);
         }
         int count = 0;
@@ -27,5 +24,20 @@ public class Solution {
             }
         }
         return count;
+    }
+
+    private static class CharSet {
+        private static final int FIRST = 'A'; // 65;
+        private static final int LAST = 'z'; // 122;
+
+        private final boolean[] set = new boolean[LAST - FIRST + 1];
+
+        public boolean contains(char ch) {
+            return set[ch - FIRST];
+        }
+
+        public void add(char ch) {
+            set[ch - FIRST] = true;
+        }
     }
 }
