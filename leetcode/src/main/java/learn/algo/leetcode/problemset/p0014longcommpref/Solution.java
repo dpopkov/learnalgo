@@ -7,25 +7,26 @@ Write a function to find the longest common prefix string amongst an array of st
 If there is no common prefix, return an empty string "".
 
 Result:
-Runtime: 1 ms, faster than 55.79%
-Memory Usage: 37 MB, less than 82.91%
+Runtime: 0 ms, faster than 100.00%
+Memory Usage: 37.3 MB, less than 47.88%
  */
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";
         }
-        StringBuilder prefix = new StringBuilder();
-        for (int charIdx = 0; charIdx < strs[0].length(); charIdx++) {
-            char current = strs[0].charAt(charIdx);
-            prefix.append(current);
-            for (int wordIdx = 1; wordIdx < strs.length; wordIdx++) {
-                String word = strs[wordIdx];
-                if (charIdx == word.length() || word.charAt(charIdx) != current) {
-                    return prefix.substring(0, charIdx);
+        String first = strs[0];
+        for (int charIdx = 0; charIdx < first.length(); charIdx++) {
+            char current = first.charAt(charIdx);
+            for (int j = 1; j < strs.length; j++) {
+                String word = strs[j];
+                if (charIdx == word.length()) {
+                    return word;
+                } else if (word.charAt(charIdx) != current) {
+                    return first.substring(0, charIdx);
                 }
             }
         }
-        return prefix.toString();
+        return first;
     }
 }
