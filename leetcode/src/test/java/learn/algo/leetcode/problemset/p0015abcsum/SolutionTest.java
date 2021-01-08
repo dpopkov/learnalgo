@@ -35,7 +35,7 @@ class SolutionTest {
     @ParameterizedTest
     @MethodSource("data")
     void testThreeSum(List<List<Integer>> expected, int[] input) {
-        List<List<Integer>> actual = new Solution().threeSum(input);
+        List<List<Integer>> actual = new Solution().threeSumSlidingWindow(input);
         assertContainSameItems(expected, actual);
     }
 
